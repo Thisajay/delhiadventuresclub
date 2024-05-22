@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/uikit.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/fontawesome/css/all.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Delhi Adventures Club</title>
+  </head>
+  <body>
+    <!-- Navbar Section Start -->
+    <nav
+      class="navbar navbar-dark navbar-expand-lg"
+      uk-sticky="top:100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up"
+    >
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <div class="ml-2 p-0 d-inline webT">Delhi Adventures Club</div>
+        </a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          data-toggle="collapse"
+          data-target="#navBar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navBar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="member.html">Members</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://forms.gle/hAZNHKWAR9AHgnS28"
+                >Join Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Nav Section End -->
+
+    <!-- Slider Section Start -->
+    <section id="slider" class="bg-dark">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item crs-img-1 active">
+            <div class="container">
+              <div class="carousel-caption pb-5 mb-5 text-left">
+                <h2 class="display-4 text-light">Explore the Wilderness</h2>
+                <p class="lead">
+                  Embark on thrilling adventures in the heart of nature.<br />
+                  Discover hidden gems and create unforgettable memories.
+                </p>
+                <a href="https://forms.gle/hAZNHKWAR9AHgnS28"" class="btn btn-success">Join Us</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item crs-img-2">
+            <div class="container">
+              <div class="carousel-caption mb-5 text-center">
+                <h2 class="display-4 text-light">Cultural Journeys</h2>
+                <p>
+                  Dive into rich cultures and traditions. Experience vibrant
+                  festivals, delicious cuisines, and warm hospitality.
+                </p>
+                <a href="https://forms.gle/hAZNHKWAR9AHgnS28" class="btn btn-warning">Join Us</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item crs-img-3">
+            <div class="container">
+              <div class="carousel-caption pb-5 mb-5 text-right">
+                <h2 class="display-4 text-light">Adrenaline Rush</h2>
+                <p>
+                  Seeking thrills? Get your heart racing with
+                  adrenaline-pumping<br />
+                  activities. Conquer new heights and push your limits.
+                </p>
+                <a href="https://forms.gle/hAZNHKWAR9AHgnS28" class="btn btn-info">Join Us</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item crs-img-4">
+            <div class="container">
+              <div class="carousel-caption pb-5 mb-5 text-left">
+                <h2 class="display-4 text-light">Urban Escapes</h2>
+                <p>
+                  Escape the hustle and bustle of city life and immerse yourself
+                  <br />
+                  in serene urban landscapes. Find tranquility amidst the chaos.
+                </p>
+                <a href="https://forms.gle/hAZNHKWAR9AHgnS28" class="btn btn-success">Join Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#myCarousel" class="carousel-control-next" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+    <!-- Slider Section End -->
+
+    <!-- Showcase Section Start -->
+    <section id="showcase">
+      <div class="container">
+        <div class="row py-5 text-center">
+          <div class="col-lg-4 col-md-4">
+            <i class="fas fa-handshake"></i>
+            <h3>Connect</h3>
+            <p class="lead mt-2">
+              Build meaningful relationships and share your passion for
+              adventure. Join a community of like-minded explorers.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <i class="fas fa-globe"></i>
+
+            <h3>Explore</h3>
+            <p class="lead mt-2">
+              Discover new places and experience the thrill of adventure.
+              Embrace the unknown and broaden your horizons.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <i class="fas fa-hiking"></i>
+            <h3>Adventure</h3>
+            <p class="lead mt-2">
+              Engage in thrilling activities that challenge you. Experience the
+              excitement and joy of outdoor adventures.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Showcase Section End -->
+
+    <!-- Get Started Section Start -->
+    <section id="get-started" class="text-center py-5 text-light">
+      <div class="inner-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col mt-5 pt-4 gC">
+              <h3 class="text-light">Are You Ready To Get Started?</h3>
+              <p class="lead">
+                Join us on unforgettable journeys across India with Delhi
+                Adventures Club! Embrace new experiences, connect with fellow
+                adventurers, and embark on thrilling adventures. Your next great
+                adventure awaits!.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Get Started Section End -->
+
+    <!-- Info Section Start -->
+    <section id="info" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-6 col-md-6 col-sm-6 justify-content-center text-left infoS"
+          >
+            <h3>Who We Are</h3>
+            <p class="lead">
+              Delhi Adventures Club is a community of adventure seekers
+              dedicated to exploring the diverse landscapes of India. With a
+              blend of passion, camaraderie, and a thirst for adventure, we
+              strive to create memorable experiences for our members. Join us
+              and become part of our vibrant community of explorers!
+            </p>
+            <a href="about.html" class="btn btn-outline-dark">Read More</a>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 align-self-center">
+            <img src="img/clubinfo.jpeg" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Info Section End -->
+
+    <!-- Video Section Start -->
+    <section id="video" class="text-center text-light">
+      <div class="video-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col mt-5 pt-4">
+              <div uk-lightbox>
+                <a href="video/indiavideo.mp4">
+                  <i class="fas fa-play"></i>
+                </a>
+              </div>
+              <h2 class="mt-5 text-light">Hack The Planet</h2>
+              <p class="lead">Click Play Button To See</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Video Section End -->
+
+    <!-- Gallery Section Start -->
+    <section id="gallery">
+      <div class="row text-center">
+        <div class="col">
+          <h2 class="mb-0" style="margin-top: 20px">Photo Gallery</h2>
+          <p class="lead m-0">Click to check out our photos</p>
+        </div>
+      </div>
+    </section>
+    <div class="photo-gallery">
+      <a
+        href="img/gallery/g1.jpg"
+        data-lightbox="club-photos"
+        data-title="Photo 1"
+        class="item1"
+        ><img src="img/gallery/g1.jpg" alt="Photo 1"
+      /></a>
+      <a
+        href="img/gallery/g2.jpg"
+        data-lightbox="club-photos"
+        data-title="Photo 2"
+        class="item2"
+        ><img src="img/gallery/g2.jpg" alt="Photo 2"
+      /></a>
+      <a
+        href="img/gallery/g3.jpeg"
+        data-lightbox="club-photos"
+        data-title="Photo 3"
+        class="item3"
+        ><img src="img/gallery/g3.jpeg" alt="Photo 3"
+      /></a>
+      <a
+        href="img/gallery/g4.jpeg"
+        data-lightbox="club-photos"
+        data-title="Photo 4"
+        class="item4"
+        ><img src="img/gallery/g4.jpeg" alt="Photo 4"
+      /></a>
+      <a
+        href="img/gallery/g5.jpeg"
+        data-lightbox="club-photos"
+        data-title="Photo 5"
+        class="item5"
+        ><img src="img/gallery/g5.jpeg" alt="Photo 5"
+      /></a>
+      <a
+        href="img/gallery/g6.jpeg"
+        data-lightbox="club-photos"
+        data-title="Photo 6"
+        class="item6"
+        ><img src="img/gallery/g6.jpeg" alt="Photo 6"
+      /></a>
+      <a
+        href="img/gallery/1.jpg"
+        data-lightbox="club-photos"
+        data-title="Photo 7"
+        class="item7"
+        ><img src="img/gallery/1.jpg" alt="Photo 7"
+      /></a>
+      <a
+        href="img/gallery/2.jpg"
+        data-lightbox="club-photos"
+        data-title="Photo 8"
+        class="item8"
+        ><img src="img/gallery/2.jpg" alt="Photo 8"
+      /></a>
+      <a
+        href="img/gallery/3.jpeg"
+        data-lightbox="club-photos"
+        data-title="Photo 9"
+        class="item9"
+        ><img src="img/gallery/3.jpg" alt="Photo 9"
+      /></a>
+      <a
+        href="img/gallery/4.jpg"
+        data-lightbox="club-photos"
+        data-title="Photo 10"
+        class="item10"
+        ><img src="img/gallery/4.jpg" alt="Photo 10"
+      /></a>
+      <a
+        href="img/gallery/5.jpg"
+        data-lightbox="club-photos"
+        data-title="Photo 11"
+        class="item11"
+        ><img src="img/gallery/5.jpg" alt="Photo 11"
+      /></a>
+      <a
+        href="img/gallery/7.jpg"
+        data-lightbox="club-photos"
+        data-title="Photo 12"
+        class="item12"
+        ><img src="img/gallery/7.jpg" alt="Photo 12"
+      /></a>
+      <a
+        href="img/gallery/6.jpg"
+        data-lightbox="club-photos"
+        data-title="Photo 13"
+        class="item13"
+        ><img src="img/gallery/6.jpg" alt="Photo 13"
+      /></a>
+      <a
+        href="img/gallery/8.jpg"
+        data-lightbox="club-photos"
+        data-title="Photo 14"
+        class="item14"
+        ><img src="img/gallery/8.jpg" alt="Photo 14"
+      /></a>
+      <a
+        href="img/gallery/9.JPG"
+        data-lightbox="club-photos"
+        data-title="Photo 15"
+        class="item15"
+        ><img src="img/gallery/9.JPG" alt="Photo 15"
+      /></a>
+      <a
+        href="img/gallery/10.JPG"
+        data-lightbox="club-photos"
+        data-title="Photo 16"
+        class="item16"
+        ><img src="img/gallery/10.JPG" alt="Photo 16"
+      /></a>
+      <a
+        href="img/gallery/11.JPG"
+        data-lightbox="club-photos"
+        data-title="Photo 17"
+        class="item17"
+        ><img src="img/gallery/11.JPG" alt="Photo 17"
+      /></a>
+      <a
+        href="img/gallery/12.JPG"
+        data-lightbox="club-photos"
+        data-title="Photo 18"
+        class="item18"
+        ><img src="img/gallery/12.JPG" alt="Photo 18"
+      /></a>
+      <a
+        href="img/gallery/13.JPG"
+        data-lightbox="club-photos"
+        data-title="Photo 19"
+        class="item19"
+        ><img src="img/gallery/13.JPG" alt="Photo 19"
+      /></a>
+      <a
+        href="img/gallery/14.JPG"
+        data-lightbox="club-photos"
+        data-title="Photo 20"
+        class="item20"
+        ><img src="img/gallery/14.JPG" alt="Photo 20"
+      /></a>
+      <a
+        href="img/gallery/15.JPG"
+        data-lightbox="club-photos"
+        data-title="Photo 21"
+        class="item21"
+        ><img src="img/gallery/15.JPG" alt="Photo 21"
+      /></a>
+      <a
+        href="img/gallery/16.JPG"
+        data-lightbox="club-photos"
+        data-title="Photo 22"
+        class="item22"
+        ><img src="img/gallery/16.JPG" alt="Photo 22"
+      /></a>
+      <a
+        href="img/gallery/17.JPG"
+        data-lightbox="club-photos"
+        data-title="Photo 23"
+        class="item23"
+        ><img src="img/gallery/17.JPG" alt="Photo 23"
+      /></a>
+      <a
+        href="img/gallery/18.JPG"
+        data-lightbox="club-photos"
+        data-title="Photo 24"
+        class="item24"
+        ><img src="img/gallery/18.JPG" alt="Photo 24"
+      /></a>
+      <a
+        href="img/gallery/19.JPG"
+        data-lightbox="club-photos"
+        data-title="Photo 25"
+        class="item25"
+        ><img src="img/gallery/19.JPG" alt="Photo 25"
+      /></a>
+      <a
+        href="img/gallery/20.JPG"
+        data-lightbox="club-photos"
+        data-title="Photo 26"
+        class="item26"
+        ><img src="img/gallery/20.JPG" alt="Photo 26"
+      /></a>
+      <a
+        href="img/gallery/21.JPG"
+        data-lightbox="club-photos"
+        data-title="Photo 27"
+        class="item27"
+        ><img src="img/gallery/21.JPG" alt="Photo 27"
+      /></a>
+      <a
+        href="img/gallery/22.JPG"
+        data-lightbox="club-photos"
+        data-title="Photo 28"
+        class="item28"
+        ><img src="img/gallery/22.JPG" alt="Photo 28"
+      /></a>
+      <a
+        href="img/gallery/24.JPG"
+        data-lightbox="club-photos"
+        data-title="Photo 29"
+        class="item29"
+        ><img src="img/gallery/24.JPG" alt="Photo 29"
+      /></a>
+      <a
+        href="img/gallery/23.JPG"
+        data-lightbox="club-photos"
+        data-title="Photo 30"
+        class="item30"
+        ><img src="img/gallery/23.JPG" alt="Photo 30"
+      /></a>
+      <a
+        href="img/gallery/25.JPG"
+        data-lightbox="club-photos"
+        data-title="Photo 31"
+        class="item31"
+        ><img src="img/gallery/25.JPG" alt="Photo 31"
+      /></a>
+      <a
+        href="img/gallery/26.JPG"
+        data-lightbox="club-photos"
+        data-title="Photo 32"
+        class="item32"
+        ><img src="img/gallery/26.JPG" alt="Photo 32"
+      /></a>
+      <a
+        href="img/gallery/27.JPG"
+        data-lightbox="club-photos"
+        data-title="Photo 33"
+        class="item33"
+        ><img src="img/gallery/27.JPG" alt="Photo 33"
+      /></a>
+      <a
+        href="img/gallery/28.JPG"
+        data-lightbox="club-photos"
+        data-title="Photo 34"
+        class="item34"
+        ><img src="img/gallery/28.JPG" alt="Photo 34"
+      /></a>
+      <a
+        href="img/gallery/29.JPG"
+        data-lightbox="club-photos"
+        data-title="Photo 35"
+        class="item35"
+        ><img src="img/gallery/29.JPG" alt="Photo 35"
+      /></a>
+    </div>
+
+    <!-- Gellery Section End -->
+
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h3 id="footer-heading">Contact Information</h3>
+            <p>123 Main Street, City</p>
+            <p>Phone: +1 234 567 890</p>
+            <p>Email: info@example.com</p>
+          </div>
+          <div class="col-md-3">
+            <h3 id="footer-heading">Social Media</h3>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/delhiadventuresclub/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.facebook.com/profile.php?id=61559796513118"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="https://x.com/DelhiAdvntrClub"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h3 id="footer-heading">Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="member.html">Members</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="https://forms.gle/hAZNHKWAR9AHgnS28">Join Us</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3 id="footer-heading">Newsletter Signup</h3>
+            <p>Subscribe to our newsletter for updates:</p>
+            <form>
+              <input type="email" placeholder="Enter your email" />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h3 id="footer-heading">Customer Support</h3>
+            <p>For customer support, contact us on WhatsApp:</p>
+            <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp Support</a>
+          </div>
+          <div class="col-md-6">
+            <div class="go-top">
+              <a href="#top">Back to Top <i class="fas fa-arrow-up"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="legal-info">
+              Copyright &copy; 2024 Delhi Adventures Club. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery-slim.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/uikit.min.js"></script>
+    <script type="text/javascript" src="js/uikit-icons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+  </body>
+</html>
