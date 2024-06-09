@@ -696,3 +696,87 @@ h2 {
   grid-column: span 3;
   grid-row: span 1;
 }
+/* community */
+.community-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  position: relative;
+}
+.section-heading {
+  position: absolute; /* Position the heading */
+  top: 0; /* Align to the top of the section */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  font-size: 2em;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.community-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.community-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  flex: 0 0 calc(50% - 20px);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px; /* Add space between cards */
+}
+
+.community-card:last-child {
+  margin-right: 0; /* Remove right margin from last card */
+}
+
+.community-card:hover {
+  transform: scale(1.05);
+}
+
+.community-image {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+
+.community-info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+.community-name {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.community-quote {
+  font-style: italic;
+  color: #555;
+  margin: 10px 0;
+  text-align: center; /* Center the quote text */
+}
+
+.community-profession {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  border-top-left-radius: 10px;
+  margin-top: auto; /* Align profession to the bottom */
+}
+
+@media (max-width: 768px) {
+  .community-card {
+    flex: 0 0 100%;
+  }
+}
